@@ -40,7 +40,8 @@ into Github so that viewers can see it live.
 1. sign in with github and the local machine you are using
 2. once signed in, continue on by clicking on settings on the dropdown menu with your profile icon
 3. select "SSH keys" and press "add key"
-4. name the key and copy and paste your SSH key into the large text box
+4. name the key and copy and paste your SSH key into the large text box 
+  * title must be the same as the one you named in your device you're working with
   * similar to finding the previous steps; go to your local machine > settings > SSH Keys > copy and paste the default key
 5. after you've added the key, you are able to run your code through github so that others can preview live of your workflow
 
@@ -48,7 +49,7 @@ into Github so that viewers can see it live.
 ---
 ## Repository Setup
 
-In order to create a repositories, you must name your repo to something that is relavant to what your code states.  
+In order to create a repositories, you must name your repo to something that is relavant to what your code presents.  
 
 #####For GitHub
 
@@ -58,7 +59,7 @@ In order to create a repositories, you must name your repo to something that is 
  * otherwise, it would not work and would not connect to your repository 
 4. Then press, "Create Repository"
 
-####For Your Local Machine
+#####For Your Local Machine
 
 1. Sign into your device that you are working with
 2. Press on new workspace to add a new repo
@@ -94,12 +95,12 @@ _Here are a list of the relatively significant command lines that you'll use on 
   * select SSH because you've added an SSH key to your github.com account
  * **git push -u origin master** - you are able to send your commits from your local repo to your remote repo
  * **git pull** - takes any changes from the remote repo to local repo
- 
-**_Forking_** obtains a remote copy of someone else's remote repo
- * you DO have consent to push your changes to the original repo  
- * _remote repositories_ are 
+ * **git clone URL** - will copy the code/repositories that you want to adjust for your own changes
 
-**_Cloning_** copies of the local remote(s) of someone else's remote repo
+ **_Forking_** obtains a remote copy of someone else's remote repo
+ * you DO have consent to push your changes to the original repo  
+ * _remote repositories_ refers to other repository that consists a variety of protocols such as HTTP://, SSH:// 
+
+ **_Cloning_** copies of the local remote(s) of someone else's remote repo
  * you are not able to push any changes into the original remote repository  
- 
- * _local repositories_ 
+ * _local repositories_ are a copy of your own equipment that holds your remote downloads
