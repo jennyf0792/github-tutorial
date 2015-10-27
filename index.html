@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub-tutorial by jennyf0792</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/jennyf0792/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub-tutorial</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/jennyf0792/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/jennyf0792/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Jenny Feng</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git and Github may sound similar but there are a few differences where you can comprehend the concept of each.  </p>
+
+<p><strong><em>Git</em></strong> is a version control that consists of your basic workflow  </p>
+
+<ul>
+<li>version control: a saved or 'snapshot' that keeps your code
+
+<ul>
+<li>so you can return to your original code if you made a mistake and want to fix it</li>
+</ul>
+</li>
+<li>no GITHUB needed for Git (2 separate devices)</li>
+<li>simple commands - assists you; to save your code</li>
+<li>initialize your git to begin working (git init)
+
+<ul>
+<li>look through workflow &amp; commands!</li>
+<li>adding files </li>
+<li>commiting your saved and added file (ability to seize and store your code)</li>
+</ul>
+</li>
+<li>a space for your command lines to run</li>
+</ul>
+
+<p><strong><em>GitHub</em></strong> is basically a website that people can view the work you have created. </p>
+
+<ul>
+<li>must obtain git in order to proceed
+
+<ul>
+<li>explore through this website - github.com (or you can call it the cloud of the code)</li>
+</ul>
+</li>
+<li>your code is stored within this website that you are presenting yourself by </li>
+<li>repositories can be viewed, forked, and cloned 
+
+<ul>
+<li>look through workflow &amp; commands for more information about forking and cloning</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>What is initial setup, you may ask. This is where you first begin to place your SSH key from the device you're using (nitrous, cloud 9, etc)
+into Github so that viewers can see it live.</p>
+
+<p><strong>Directions:</strong> </p>
+
+<ol>
+<li>sign in with github and the local machine you are using</li>
+<li>once signed in, continue on by clicking on settings on the dropdown menu with your profile icon</li>
+<li>select "SSH keys" and press "add key"</li>
+<li>name the key and copy and paste your SSH key into the large text box 
+
+<ul>
+<li>title must be the same as the one you named in your device you're working with</li>
+<li>similar to finding the previous steps; go to your local machine &gt; settings &gt; SSH Keys &gt; copy and paste the default key</li>
+</ul>
+</li>
+<li>after you've added the key, you are able to run your code through github so that others can preview live of your workflow</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>In order to create a repositories, you must name your repo to something that is relavant to what your code presents.  </p>
+
+<h5>
+<a id="for-github" class="anchor" href="#for-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>For GitHub</h5>
+
+<ol>
+<li>Sign into github.com and your local machine, that may be Nitrous, Cloud 9, etc</li>
+<li>On github.com, travel to your profile and select on 'repositories' and click on "New"</li>
+<li>Type in the <strong>EXACT</strong> name that you typed into your local machine
+
+<ul>
+<li>otherwise, it would not work and would not connect to your repository </li>
+</ul>
+</li>
+<li>Then press, "Create Repository"</li>
+</ol>
+
+<h5>
+<a id="for-your-local-machine" class="anchor" href="#for-your-local-machine" aria-hidden="true"><span class="octicon octicon-link"></span></a>For Your Local Machine</h5>
+
+<ol>
+<li>Sign into your device that you are working with</li>
+<li>Press on new workspace to add a new repo</li>
+<li>Type a title that is simple and easy to recall</li>
+<li>Then just press "Create Workspace"</li>
+</ol>
+
+<p>And you are done! Well, continue creating repositories if you desire to add more</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>There are a lot of commands that you can run through the local machine you are operating with</p>
+
+<p><em>Here are a list of the relatively significant command lines that you'll use on your device</em></p>
+
+<ul>
+<li>
+<strong>git init</strong> - this can initialize and start your local machine
+
+<ul>
+<li>without this, you can use anything else below the list</li>
+</ul>
+</li>
+<li>
+<strong>git status</strong> - this allows you to see what commits, adds, or changes you've made and what you need to do to save your changes</li>
+<li>
+<strong>pwd</strong> - basically assists you acknowledge where you are exactly
+
+<ul>
+<li>if you type in pwd and you get back '/home/ubuntu/workspace/github-tutorial' and you are meant to be in your 'about-me' then _'cd ..'_out </li>
+</ul>
+</li>
+<li>
+<strong>ls</strong> - this will list the items your repositories contain
+
+<ul>
+<li>example: 
+You are in github-learning and type into the workspace, ls, and you get back
+"directions.md' &amp; 'README.md'</li>
+</ul>
+</li>
+<li>
+<strong>git add README.md</strong> - this command line will add the file that you had just made changes to</li>
+<li>
+<strong>git commit -m " "</strong> - save a snapshot of your code that you have just added</li>
+<li>
+<strong>cd ..</strong> - allows you get out the repositories and return to where you were before</li>
+<li>
+<strong>git log</strong> - you can see your past commits</li>
+<li>
+<strong>git diff</strong> - (self-explanatory) able to view the difference between your current code and the previous commit</li>
+<li>
+<strong>git remote add origin URL</strong> - you can connect your URL to the location of your remote repo (short for repositories)
+
+<ul>
+<li>select SSH because you've added an SSH key to your github.com account</li>
+</ul>
+</li>
+<li>
+<strong>git push -u origin master</strong> - you are able to send your commits from your local repo to your remote repo</li>
+<li>
+<strong>git pull</strong> - takes any changes from the remote repo to local repo</li>
+<li>
+<p><strong>git clone URL</strong> - will copy the code/repositories that you want to adjust for your own changes</p>
+
+<p><strong><em>Forking</em></strong> obtains a remote copy of someone else's remote repo</p>
+</li>
+<li>you DO have consent to push your changes to the original repo<br>
+</li>
+<li>
+<p><em>remote repositories</em> refers to other repository that consists a variety of protocols such as HTTP://, SSH:// </p>
+
+<p><strong><em>Cloning</em></strong> copies of the local remote(s) of someone else's remote repo</p>
+</li>
+<li>you are not able to push any changes into the original remote repository<br>
+</li>
+<li>
+<em>local repositories</em> are a copy of your own equipment that holds your remote downloads</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/jennyf0792">jennyf0792</a> can be found on <a href="https://github.com/jennyf0792/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
